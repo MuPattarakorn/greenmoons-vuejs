@@ -8,7 +8,7 @@ export const useCounterStore = defineStore('counter', () => {
     count.value++
   }
 
-  const ENDPOINT = '' as const
+  const ENDPOINT = 'https://todo-api-606352320440.asia-southeast1.run.app' as const
 
   return { count, doubleCount, increment, ENDPOINT }
 })

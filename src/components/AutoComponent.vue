@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>Hello auto components : {{ text }}</h1>
+  <div :style="{ paddingBottom: '20px' }">
+    <h1>Auto components : {{ text }}</h1>
 
-    <button @click="clickme">click me</button>
+    <button @click="clickme" :style="{ marginTop: '10px' }">click me</button>
   </div>
 </template>
 
